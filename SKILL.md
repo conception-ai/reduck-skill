@@ -26,7 +26,7 @@ Reduck is a **function**: pass arguments, records come back. The default LLM fai
 
 ## CLI surface (live)
 
-If the four blocks below render as literal `` !`reduck …` `` text, your skill loader doesn't expand command macros — run each command yourself before discovery, since the contracts change between releases.
+The four blocks below use a bash-macro syntax that some loaders (e.g. Claude Code) expand at load time, inlining live `--help` output. If they render as literal text instead, run the four commands yourself before discovery — the contracts change between releases.
 
 !`reduck --help 2>&1`
 !`reduck run --help 2>&1`
