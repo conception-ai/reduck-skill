@@ -10,7 +10,7 @@
       "description": "Drive the Reduck CLI to perform web tasks (scrape, search, log in, fetch SPA, paginate site-search) as function calls.",
       "source": "./",
       "strict": false,
-      "skills": ["./skills/reduck"]
+      "skills": ["."]
     }
   ]
 }
