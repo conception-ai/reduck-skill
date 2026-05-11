@@ -20,9 +20,13 @@ Reduck is a **function**: pass arguments, records come back. The default LLM fai
 
 ## Prerequisites
 
-- Install the Reduck CLI — see the upstream project for the current install command.
-- `reduck login` once per device (OAuth PKCE, opens a browser).
-- Optional: set `REDUCK_DEVICE_ID=<chrome-profile>` so multiple agents can run sessions on the same machine concurrently — Chrome profile accepts concurrent sessions.
+```bash
+npm install -g @reduck-ai/cli
+reduck login        # OAuth PKCE, opens a browser
+reduck devices      # pick the device this CLI will dispatch to
+```
+
+Optional: set `REDUCK_DEVICE_ID=<chrome-profile>` so multiple agents can run sessions on the same machine concurrently — Chrome profile accepts concurrent sessions.
 
 ## CLI surface (live)
 

@@ -16,9 +16,13 @@ Manual install — copy or clone `SKILL.md` into your agent's skills directory, 
 
 ## Prerequisites
 
-- Install the Reduck CLI (see the upstream project).
-- Run `reduck login` once per device.
-- Optional: set `REDUCK_DEVICE_ID=<chrome-profile>` to allow concurrent agent sessions on the same machine.
+```bash
+npm install -g @reduck-ai/cli
+reduck login        # OAuth PKCE, opens a browser
+reduck devices      # pick the device the CLI will dispatch to
+```
+
+Optional: set `REDUCK_DEVICE_ID=<chrome-profile>` to allow concurrent agent sessions on the same machine.
 
 ## License
 
