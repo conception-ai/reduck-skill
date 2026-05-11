@@ -9,7 +9,7 @@ Reduck runs web automations from the terminal — scraping, structured extractio
 Via the [skills CLI](https://skills.sh):
 
 ```bash
-npx skills add <org>/reduck-skill
+npx skills add conception-ai/reduck-skill
 ```
 
 Manual install — copy or clone `SKILL.md` into your agent's skills directory, e.g. `~/.claude/skills/reduck/SKILL.md`.
