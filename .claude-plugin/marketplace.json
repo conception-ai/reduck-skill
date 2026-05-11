@@ -1,0 +1,7 @@
+{
+  "name": "reduck-skill",
+  "description": "Reduck CLI skill — web tasks as function calls.",
+  "plugins": [
+    { "name": "reduck", "skills": ["."] }
+  ]
+}
